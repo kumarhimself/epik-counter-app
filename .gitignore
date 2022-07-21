@@ -25,6 +25,8 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
+# static folder for Digital Ocean
+
 # local env files
 .env*.local
 
