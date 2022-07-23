@@ -21,7 +21,9 @@ export default function Home() {
         <h1 className="pb-4 text-4xl text-blue-600 font-bold">Epik Counter App</h1>
         <p>By: Ayush Kumar</p>
         <p>Created: 21 July, 2022</p>
-        <a href="https://github.com/kumarhimself/epik-counter-app">View Source Code</a>
+        <a href="https://github.com/kumarhimself/epik-counter-app" className="underline">
+          View Source Code
+        </a>
       </div>
 
       {/* Counter */}
