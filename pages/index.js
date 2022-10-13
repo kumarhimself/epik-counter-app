@@ -33,19 +33,19 @@ export default function Home() {
         <div className="flex flex-col justify-center sm:flex-row">
           <button
             onClick={decrement}
-            className="mx-4 my-2 sm:my-0 p-2 rounded-sm bg-blue-600 text-white hover:bg-blue-900 transition-all"
+            className="mx-4 my-2 sm:my-0 p-2 rounded-md bg-blue-600 text-white hover:bg-blue-900 transition-all"
           >
             Decrement
           </button>
           <button
             onClick={reset}
-            className="mx-4 my-2 sm:my-0 p-2 rounded-sm bg-blue-600 text-white hover:bg-blue-900 transition-all"
+            className="mx-4 my-2 sm:my-0 p-2 rounded-md bg-blue-600 text-white hover:bg-blue-900 transition-all"
           >
             Reset
           </button>
           <button
             onClick={increment}
-            className="mx-4 my-2 sm:my-0 p-2 rounded-sm bg-blue-600 text-white hover:bg-blue-900 transition-all"
+            className="mx-4 my-2 sm:my-0 p-2 rounded-md bg-blue-600 text-white hover:bg-blue-900 transition-all"
           >
             Increment
           </button>
